@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="540px" height="108px" viewBox="0 0 540 108" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47 (45396) - http://www.bohemiancoding.com/sketch -->
+    <title>FB BUTTON</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-3.5%" y="-13.6%" width="106.9%" height="140.9%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="6" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.222486413 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <linearGradient x1="0%" y1="0%" x2="100.426577%" y2="99.4420032%" id="linearGradient-2">
+            <stop stop-color="#3245B8" offset="0%"></stop>
+            <stop stop-color="#5D71E9" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="principle" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="2-copy-4" transform="translate(-105.000000, -1044.000000)">
+            <g id="FB-BUTTON" transform="translate(115.000000, 1048.000000)">
+                <g id="Button" filter="url(#filter-1)">
+                    <rect id="Rectangle" fill="url(#linearGradient-2)" x="0" y="0" width="520" height="88" rx="44"></rect>
+                    <g id="Content" transform="translate(61.000000, 19.000000)" fill="#FFFFFF">
+                        <g id="Group-2">
+                            <text id="Login-with-Facebook" font-family="Nunito-Bold, Nunito" font-size="33" font-weight="bold" line-spacing="54" letter-spacing="0.916666806">
+                                <tspan x="41" y="33">Login with Facebook</tspan>
+                            </text>
+                            <path d="M12.0432141,46.815524 L12.0432141,27.4054895 L17.4012326,27.4054895 L18.1112857,20.7166841 L12.0432141,20.7166841 L12.0523174,17.3688726 C12.0523174,15.6243291 12.2180723,14.6895629 14.7237406,14.6895629 L18.0733555,14.6895629 L18.0733555,8 L12.7145785,8 C6.2778255,8 4.01225534,11.2447902 4.01225534,16.7015071 L4.01225534,20.7174416 L2.84217094e-14,20.7174416 L2.84217094e-14,27.406247 L4.01225534,27.406247 L4.01225534,46.815524 L12.0432141,46.815524 Z" id="Facebook"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

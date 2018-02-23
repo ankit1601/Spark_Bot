@@ -1,0 +1,44 @@
+<!--
+  Generated template for the MessagePage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+
+
+
+
+<ion-content padding>
+    <div style="text-align:right;">
+        <img id="hamburger" src="../assets/imgs/hamburger.png" />
+    </div>
+    <div id="message_box">
+        <div class="message">
+            <div *ngFor="let item of messages" [ngClass]="item.pop_class" style="margin: 10px;">
+                <span [ngClass]="item.text_class">
+               <p> {{item.message}}</p>
+<img *ngIf="item.link" style="width:100px; height: 100px;" [src]="item.link" />
+
+               <!-- <iframe *ngIf="item.link" allow="autoplay; encrypted-media" [src]="item.link" style="width:80% height: 70%;">mm</iframe> -->
+              </span>
+            </div>
+        </div>
+
+    </div>
+    <button *ngIf="newMode" class="button_color button_1" (click)="lets_begin(1)">{{first}}</button>
+    <button *ngIf="newMode" class="button_color button_2" (click)="lets_begin(2)">{{second}}</button>
+    <button *ngIf="newMode" class="button_color button_3" (click)="lets_begin(3)">{{third}}</button>
+    <button *ngIf="phase2" class="button_color button_1" (click)="yesButton()">Yea, Sure</button>
+    <button *ngIf="phase2" class="button_color button_2" (click)="noButton()">Nah!</button>
+    <button *ngIf="startover" class="button_color button_2" (click)="loadOne()">Startover!</button>
+</ion-content>
+<ion-footer keyboard-attach>
+    <ion-item>
+        <ion-input id="textToSend" type="text" [(ngModel)]="textMessage" placeholder="Say something...">
+
+        </ion-input>
+        <img id="sendButton" item-end name="send" (click)="sendMessage()" src="../assets/imgs/send.png" />
+
+    </ion-item>
+
+</ion-footer>

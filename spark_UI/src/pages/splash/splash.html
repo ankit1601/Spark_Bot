@@ -1,0 +1,27 @@
+<!--
+  Generated template for the SplashPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+
+
+<ion-content padding>
+    <div id="splash_logo_div">
+        <img src="../assets/imgs/logo_spark.png">
+        <div id="heading" class="default-color">spark</div>
+    </div>
+    <div class="sign-in-text">
+        <span #signText class="login-text">Sign in with a social account</span>
+    </div>
+    <div class="sign-in-text">
+        <a (click)="login()">
+            <img #loginFB class="login-fb" src="../assets/imgs/fb_button3x.png" />
+        </a>
+    </div>
+    <div class="sign-in-text">
+        <a (click)="login()">
+            <img #loginTwitter class="login-twitter" src="../assets/imgs/twitter_button3x.png" />
+        </a>
+    </div>
+</ion-content>

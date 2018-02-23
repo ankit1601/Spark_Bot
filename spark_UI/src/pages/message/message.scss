@@ -1,0 +1,100 @@
+page-message {}
+
+#header_section {
+    height: 10%;
+    max-height: 50px;
+    align-items: right;
+}
+
+#hamburger {
+    width: 20px;
+    height: 13px;
+}
+
+.left_one {
+    border-radius: 0 40px 40px 40px;
+    box-shadow: 2px 4px 13px 0 rgba(0, 0, 0, 0.12);
+    background: #FFFFFF;
+    padding: 5px;
+}
+
+.right_one {
+    background: #F5A623;
+    box-shadow: 2px 4px 13px 0 rgba(0, 0, 0, 0.12);
+    border-radius: 40px 40px 0 40px;
+    padding: 5px;
+}
+
+.right_text {
+    font-family: NunitoBold;
+    font-size: 16px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    position: relative;
+    right: 5px;
+}
+
+.left_text {
+    font-family: NunitoSemiBold;
+    font-size: 16px;
+    color: #4A4A4A;
+    letter-spacing: 0;
+    position: relative;
+    left: 10px;
+}
+
+ion-content {
+    border: 2px solid black;
+}
+
+.textToSend {
+    font-family: NunitoSemiBold;
+    font-size: 1.3rem;
+    color: rgba(74, 74, 74, 0.47);
+    letter-spacing: 0;
+}
+
+p {
+    margin: 0 3% 0 3%;
+}
+
+ion-input {
+    font-family: NunitoSemiBold;
+    font-size: 1.3rem;
+    color: rgba(74, 74, 74, 0.47);
+    letter-spacing: 0;
+}
+
+#sendButton {
+    width: 20px;
+    height: 20px;
+}
+
+.button_color {
+    background: #F5A623;
+    box-shadow: 2px 4px 13px 0 rgba(0, 0, 0, 0.12);
+    border-radius: 76px;
+    text-align: center;
+    color: white;
+    font-family: NunitoBold;
+    padding: 5px 10px;
+    font-size: 16px;
+}
+
+.button_1 {
+    position: fixed;
+    bottom: 25%;
+    right: 5px;
+}
+
+.button_2 {
+    position: fixed;
+    bottom: 20%;
+    right: 5px;
+}
+
+.button_3 {
+    position: fixed;
+    bottom: 15%;
+    right: 5px;
+}
